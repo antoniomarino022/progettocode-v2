@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.ctn{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 50px;
+}
+
+.ctn-app{
+height: 550px;
+width: 1000px;
+background-color: #26616d;
+border-radius: 20px;
+}
+
+.ctn-btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.inputNome>input{
+    border-radius: 20px;
+    height: 30px;
+    padding-left: 20px;
+  
+}
+
+.btn-add{
+    margin-right: 180px;
+    position: relative;
+    left: 20px;
+    border-radius: 20px;
+    height: 30px;
+    width: 90px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.btn-add:hover{
+ background-color: yellow;
+ 
+}
+
+.inputNumber>input{
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+    padding-left: 20px;
+    position: relative;
+    right: 10px;
+}
+
+.btn-genera{
+    margin-right: 180px;
+    border-radius: 20px;
+    height: 30px;
+    width: 190px;
+    background-color: white;
+    text-align: center;
+   
+}
+
+.btn-genera:hover{
+    background-color: yellow;
+}
+
+.lista-js{
+color: white;
+font-size: 30px;
+list-style: none;
+padding-left: 60px;
+padding-top: 10px;
+}
